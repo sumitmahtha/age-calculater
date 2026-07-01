@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    background: #F8FAFC;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .card {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #1E293b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(52, 6px);
+    gap: 3px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .week {
+    width: 6px;
+    height: 12px;
+    background: #ddd;
+  }
+  
+  .past {
+    background: #1D1D1F;
+  }
+  
+  .present {
+    background: #0071E3;
+  }
+  
+  .future {
+    background: #D2D2D7;
+  }
+  
+  #info {
+    margin-top: 20px;
+  }
